@@ -21,7 +21,6 @@ git submodule add https://github.com/alfredodeza/pytest.vim.git vim/bundle/py.te
 git submodule add https://github.com/reinh/vim-makegreen vim/bundle/makegreen
 git submodule add https://github.com/vim-scripts/TaskList.vim.git vim/bundle/tasklist
 git submodule add https://github.com/vim-scripts/The-NERD-tree.git vim/bundle/nerdtree
-git submodule add https://github.com/sontek/rope-vim.git vim/bundle/ropevim
 git submodule add https://github.com/bling/vim-airline.git vim/bundle/airline
 git submodule init
 git submodule update

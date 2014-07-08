@@ -33,7 +33,7 @@ map <leader>td <Plug>TaskList
 " Gundo
 map <leader>g :GundoToggle<CR>
 
-ap <leader>n :NERDTreeToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
 
 " Make vim virtualenv aware, so it can do code-completion if we have that enabled
 py << EOF
@@ -144,7 +144,6 @@ if has("gui_running")
     set guioptions-=T
 endif
 
-colorscheme solarized
 colorscheme vividchalk
 
 " Paste from clipboard
