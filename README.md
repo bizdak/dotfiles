@@ -6,6 +6,7 @@ curl -LSso vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 The following were added for vim:
 
+```
 git submodule add http://github.com/tpope/vim-fugitive.git vim/bundle/fugitive
 git submodule add https://github.com/msanders/snipmate.vim.git vim/bundle/snipmate
 git submodule add https://github.com/tpope/vim-surround.git vim/bundle/surround
@@ -29,4 +30,4 @@ git submodule foreach git submodule update
 
 ln -s `pwd`/vimrc ~/.vimrc
 ln -s `pwd`/vim ~/.vim
-
+```
