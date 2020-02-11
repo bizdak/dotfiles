@@ -144,7 +144,7 @@ if has("gui_running")
     set guioptions-=T
 endif
 
-colorscheme vividchalk
+colorscheme elflord
 
 " Paste from clipboard
 map <leader>p "+p
@@ -204,19 +204,19 @@ endif
 au BufRead,BufNewFile *.md setlocal textwidth=80
 
 
-"if executable('ag')
-"    " Use ag over grep
-"    set grepprg=ag\ --nogroup\ --nocolor
-"
-"    " Use ag in CtrlP for listing files. Lightning fast and respects
-"    " .gitignore
-"    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-"
-"    " ag is fast enough that CtrlP doesn't need to cache
-"    let g:ctrlp_use_caching = 0
-"endif
+if executable('ag')
+    " Use ag over grep
+    set grepprg=ag\ --nogroup\ --nocolor
+
+    " Use ag in CtrlP for listing files. Lightning fast and respects
+    " .gitignore
+    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+    " ag is fast enough that CtrlP doesn't need to cache
+    let g:ctrlp_use_caching = 0
+endif
 "
 "" bind K to grep word under cursor
-"nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 
